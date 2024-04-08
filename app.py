@@ -10,7 +10,7 @@ from langchain.prompts import PromptTemplate
 import os
 
 
-st.set_page_config(page_title="Aske Me RAG", layout="wide")
+st.set_page_config(page_title="Ask Me RAG", layout="wide")
 
 st.markdown("""
 ## Ask Me - RAG  
