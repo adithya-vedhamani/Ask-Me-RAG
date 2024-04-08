@@ -24,7 +24,8 @@ pip install -r requirements.txt
 ### How to Use
 
 ```bash
-pip install -r requiremestreamlit run <path_to_script.py>nts.txt
+pip install -r requirements.txt
+python -m streamlit run <path_to_script.py>nts.txt
 ```
 ### Providing Your Google API Key
 Securely enter your Google API key when prompted. This key enables the application to access Google's Generative AI models.
