@@ -1,5 +1,7 @@
 # Ask Me RAG
 
+![image](https://github.com/adithya-vedhamani/Ask-Me-RAG/assets/73640313/29b438e8-4dc4-4f70-bc76-d39577976482)
+
 ## Features
 
 - **Real-time Insights**: Extracts and analyzes text from uploaded PDF documents to provide immediate insights.
