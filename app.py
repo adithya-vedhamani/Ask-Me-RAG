@@ -53,6 +53,8 @@ def get_conversational_chain():
     return chain
 
 def user_input(user_question, api_key):
+        # Set allow_dangerous_deserialization to True when loading the FAISS index
+    FAISS.allow_dangerous_deserialization = True
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=api_key)
     new_db = FAISS.load_local("faiss_index", embeddings)
     docs = new_db.similarity_search(user_question)
