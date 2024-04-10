@@ -26,7 +26,6 @@ pip install -r requirements.txt
 ### How to Use
 
 ```bash
-pip install -r requirements.txt
 python -m streamlit run <path_to_script.py>nts.txt
 ```
 ### Providing Your Google API Key
